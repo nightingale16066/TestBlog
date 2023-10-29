@@ -17,15 +17,15 @@ export const parseServerData = db => {
 export const setClientTime = time => {
   const date = new Date(time)
   return `${fillToTwoDigits(date.getDate())}.${fillToTwoDigits(
-    date.getMonth()
+    date.getMonth() + 1
   )}.${date.getFullYear()}`
 }
 
 export const setServerTime = time => {
   const date = new Date(time)
-  return `${fillToTwoDigits(date.getFullYear())}.${fillToTwoDigits(
-    date.getMonth()
-  )}.${date.getDate()}`
+  return `${fillToTwoDigits(date.getFullYear())}-${fillToTwoDigits(
+    date.getUTCMonth() + 1
+  )}-${date.getDate()}`
 }
 
 export const setUserCardName = userName => {
