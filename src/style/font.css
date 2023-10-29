@@ -1,0 +1,68 @@
+.title-1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #0b1823;
+}
+
+.title-2 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.title-3 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #00aee5;
+}
+
+.title-4 {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #0b1823;
+}
+
+.title-5 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #00aee5;
+}
+
+.subtitle-1 {
+  font-size: 15px;
+  line-height: 18px;
+  color: #0b182380;
+}
+
+.subtitle-2 {
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0b182380;
+}
+
+.article-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.nav-item {
+  font-size: 15px;
+  font-weight: 500;
+  color: #0b1823;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .title-5 {
+    font-size: 30px;
+  }
+}
